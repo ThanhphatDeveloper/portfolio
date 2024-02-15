@@ -10,14 +10,6 @@
 	<meta name="keywords" content="" />
 	<meta name="author" content="" />
 
-	<!-- 
-	//////////////////////////////////////////////////////
-
-	
-
-	//////////////////////////////////////////////////////
-	 -->
-
 	<!-- Facebook and Twitter integration -->
 	<meta property="og:title" content="" />
 	<meta property="og:image" content="" />
@@ -105,9 +97,9 @@
 					<div class="col-md-8 col-md-offset-2 text-center">
 						<div class="display-t js-fullheight">
 							<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
-								<div class="profile-thumb" style="background: url(assets/images/user-3.jpg);"></div>
+								<div class="profile-thumb" style="background: url(assets/images/nguyen-thanh-phat.jpg);"></div>
 								<h1><span>Nguyễn Thành Phát</span></h1>
-								<h3><span>Digital Marketing Executive / Photographer</span></h3>
+								<h3><span>Digital Marketing Executive / Web Developent</span></h3>
 								<p>
 								<ul class="fh5co-social-icons">
 									<li><a href="#"><i class="icon-twitter2"></i></a></li>
@@ -667,6 +659,7 @@
 	</div>
 
 	<!-- jQuery -->
+	<script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
 	<script src="assets/js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
 	<script src="assets/js/jquery.easing.1.3.js"></script>
@@ -678,12 +671,13 @@
 	<script src="assets/js/jquery.stellar.min.js"></script>
 	<!-- Easy PieChart -->
 	<script src="assets/js/jquery.easypiechart.min.js"></script>
-	<!-- Google Map -->
-	{{-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script> --}}
-	<script src="assets/js/google_map.js"></script>
-
 	<!-- Main -->
 	<script src="assets/js/main.js"></script>
+
+	<!-- <script src="assets/vendors/jquery/jquery-3.4.1.js"></script> -->
+    <!-- <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script> -->
+    <!-- <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script> -->
+    <script src="assets/js/steller.js"></script>
 
 </body>
 
