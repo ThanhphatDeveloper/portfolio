@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="utf-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Start your development with Steller landing page.">
     <meta name="author" content="Devcrud">
@@ -9,8 +10,9 @@
     <!-- font icons -->
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
     <!-- Bootstrap + Steller main styles -->
-	<link rel="stylesheet" href="assets/css/steller.css">
+    <link rel="stylesheet" href="assets/css/steller.css">
 </head>
+
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
 
     <!-- Page navigation -->
@@ -31,7 +33,7 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#service">Service</a>
-                    </li>                   
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#portfolio">Portfolio</a>
                     </li>
@@ -45,11 +47,11 @@
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a class="- btn btn-primary rounded ml-4" href="{{ route('cv') }}">Xem Cv</a>
+                        <a class="- btn btn-primary rounded ml-4" href="{{ route('cv') }}" target="_blank">Xem</a>
                     </li>
                 </ul>
             </div>
-        </div>          
+        </div>
     </nav>
     <!-- End of page navibation -->
 
@@ -59,12 +61,12 @@
             <div class="infos">
                 <h6 class="subtitle">hello,I'm</h6>
                 <h6 class="title">Thành Phát</h6>
-                <p>UI/UX Designer</p>
+                <p>Digital Marketing</p>
 
                 <div class="buttons pt-3">
                     <button class="btn btn-primary rounded">HIRE ME</button>
                     <button class="btn btn-dark rounded">DOWNLOAD CV</button>
-                </div>      
+                </div>
 
                 <div class="socials mt-4">
                     <a class="social-item" href="javascript:void(0)"><i class="ti-facebook"></i></a>
@@ -72,11 +74,11 @@
                     <a class="social-item" href="javascript:void(0)"><i class="ti-github"></i></a>
                     <a class="social-item" href="javascript:void(0)"><i class="ti-twitter"></i></a>
                 </div>
-            </div>              
+            </div>
             <div class="img-holder">
                 <img src="assets/images/man.svg" alt="">
-            </div>      
-        </div>  
+            </div>
+        </div>
 
         <!-- Header-widget -->
         <div class="widget">
@@ -95,20 +97,25 @@
         </div>
     </header>
     <!-- End of Page Header -->
-    
+
     <!-- About section -->
     <section id="about" class="section mt-3">
         <div class="container mt-5">
             <div class="row text-center text-md-left">
                 <div class="col-md-3">
-                    <img src="assets/images/avatar.jpg" alt="" class="img-thumbnail mb-4">
+                    <img src="assets/images/nguyen-thanh-phat.jpg" alt="Nguyễn Thành Phát" class="img-thumbnail mb-4">
                 </div>
                 <div class="pl-md-4 col-md-9">
-                    <h6 class="title">James Smith</h6>
+                    <h6 class="title">Nguyễn Thành Phát</h6>
                     <p class="subtitle">UI/UX Designer</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, pariatur, aperiam aut autem voluptas odit. Odio ducimus delectus totam sed aliquam sequi praesentium mollitia, illum repudiandae quidem quod, magni magnam.</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, eius, nam. Quo praesentium qui temporibus voluptatum, facilis aliquid eligendi fugiat beatae neque inventore non. Laborum repellendus consequatur ullam voluptatum asperiores.</p>
-                    <button class="btn btn-primary rounded mt-3">DOWNLOAD CV</button>                   
+                    <!-- <button class="btn btn-primary rounded mt-3">DOWNLOAD CV</button>
+                                    -->
+                    <form action="{{ route('download.cv') }}" method="GET" target="_blank">
+                        <button type="submit" class="btn btn-primary rounded mt-3">DOWNLOAD CV</button>
+                    </form>
+
                 </div>
             </div>
         </div>
@@ -191,7 +198,7 @@
                         <div class="progress-bar bg-primary" role="progressbar" style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>90%</span></div>
                     </div>
                 </div>
-            </div>  
+            </div>
         </div>
     </section>
     <!-- End of Skills sections -->
@@ -212,7 +219,7 @@
                                 <h5>Project Title</h5>
                                 <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
                                 <a href="javascript:void(0)"><i class="ti-link"></i></a>
-                            </div>  
+                            </div>
                         </div>
                     </div>
                     <div class="img-wrapper">
@@ -222,9 +229,9 @@
                                 <h5>Project Title</h5>
                                 <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
                                 <a href="javascript:void(0)"><i class="ti-link"></i></a>
-                            </div>                              
+                            </div>
                         </div>
-                    </div>                  
+                    </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="img-wrapper">
@@ -234,7 +241,7 @@
                                 <h5>Project Title</h5>
                                 <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
                                 <a href="javascript:void(0)"><i class="ti-link"></i></a>
-                            </div>  
+                            </div>
                         </div>
                     </div>
                     <div class="img-wrapper">
@@ -244,9 +251,9 @@
                                 <h5>Project Title</h5>
                                 <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
                                 <a href="javascript:void(0)"><i class="ti-link"></i></a>
-                            </div>                              
+                            </div>
                         </div>
-                    </div>                  
+                    </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="img-wrapper">
@@ -256,7 +263,7 @@
                                 <h5>Project Title</h5>
                                 <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
                                 <a href="javascript:void(0)"><i class="ti-link"></i></a>
-                            </div>  
+                            </div>
                         </div>
                     </div>
                     <div class="img-wrapper">
@@ -266,9 +273,9 @@
                                 <h5>Project Title</h5>
                                 <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
                                 <a href="javascript:void(0)"><i class="ti-link"></i></a>
-                            </div>                              
+                            </div>
                         </div>
-                    </div>                  
+                    </div>
                 </div>
             </div>
 
@@ -398,10 +405,10 @@
                             <button class="btn btn-light rounded">Hire Me!</button>
                         </div>
                     </div>
-                </div> 
+                </div>
             </div>
         </div>
-    </section>      
+    </section>
     <!-- End od Hire me section. -->
 
     <!-- Contact Section -->
@@ -434,14 +441,14 @@
                         <div class="">
                             <h5>Location</h5>
                             <p> 12345 Fake ST NoWhere AB Country</p>
-                        </div>                          
+                        </div>
                     </div>
                     <div class="item">
                         <i class="ti-mobile"></i>
                         <div>
                             <h5>Phone Number</h5>
                             <p>(123) 456-7890</p>
-                        </div>                          
+                        </div>
                     </div>
                     <div class="item">
                         <i class="ti-email"></i>
@@ -450,12 +457,12 @@
                             <p>info@website.com</p>
                         </div>
                     </div>
-                </div>                  
+                </div>
             </div>
-        </div>  
+        </div>
         <div id="map">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d635.419581114035!2d106.72803966379084!3d10.749615959942556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317525281c2ef781%3A0x22ce3330f29d213a!2zMTcvNCBUw6JuIFRodeG6rW4gVMOieSwgUXXhuq1uIDcsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1707901229288!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>      
+        </div>
     </section>
     <!-- End of Contact Section -->
 
@@ -464,7 +471,9 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-sm-6">
-                    <p>Copyright <script>document.write(new Date().getFullYear())</script> &copy; <a href="http://www.devcrud.com" target="_blank">DevCRUD</a></p>
+                    <p>Copyright <script>
+                            document.write(new Date().getFullYear())
+                        </script> &copy; <a href="http://www.devcrud.com" target="_blank">DevCRUD</a></p>
                 </div>
                 <div class="col-sm-6">
                     <div class="socials">
@@ -476,17 +485,18 @@
                 </div>
             </div>
         </div>
-    </footer> 
+    </footer>
     <!-- End of page footer -->
-	
-	<!-- core  -->
+
+    <!-- core  -->
     <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
     <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
     <!-- bootstrap 3 affix -->
-	<script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
 
     <!-- steller js -->
     <script src="assets/js/steller.js"></script>
 
 </body>
+
 </html>

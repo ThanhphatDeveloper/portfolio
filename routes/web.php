@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Response;
+use Illuminate\Support\Facades\Storage;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,12 +16,26 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
 
 Route::get('/cv', function () {
     return view('cv');
 })->name('cv');
 
+Route::get('/download-cv', function () {
+
+    // Đường dẫn tới file CV của bạn
+    $filePath = public_path('assets/files/nguyen-thanh-phat.pdf');
+
+    // Kiểm tra xem file có tồn tại không
+    if (file_exists($filePath)) {
+        // Trả về file CV cho người dùng
+        return response()->file($filePath);
+    } else {
+        // Nếu file không tồn tại, bạn có thể redirect người dùng tới một trang thông báo lỗi
+        return redirect()->back()->with('error', 'File CV không tồn tại.');
+    }
+})->name('download.cv');
 
 
