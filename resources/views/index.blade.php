@@ -392,7 +392,7 @@
     </section>
 
     <!-- Hire me section -->
-    <section class="bg-gray p-0 section">
+    <!-- <section class="bg-gray p-0 section">
         <div class="container">
             <div class="card bg-primary">
                 <div class="card-body text-light">
@@ -408,7 +408,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- End od Hire me section. -->
 
     <!-- Contact Section -->
@@ -473,7 +473,7 @@
                 <div class="col-sm-6">
                     <p>Copyright <script>
                             document.write(new Date().getFullYear())
-                        </script> &copy; <a href="http://www.devcrud.com" target="_blank">DevCRUD</a></p>
+                        </script> &copy; <a href="" target="_blank">DevCRUD</a></p>
                 </div>
                 <div class="col-sm-6">
                     <div class="socials">

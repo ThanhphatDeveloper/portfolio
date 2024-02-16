@@ -46,9 +46,6 @@
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
-
-	<div class="fh5co-loader"></div>
-	{{-- Start haeder --}}
 	
 	<nav class="navbar navbar-expand-lg navbar-light fixed-top" data-spy="affix" data-offset-top="0">
 		<div class="container">
@@ -87,9 +84,9 @@
 			</div>
 		</div>
 	</nav>
-	{{-- End Haeder --}}
+	
 	<div id="page">
-		{{-- end header --}}
+		
 		<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image:url(assets/images/cover_bg_3.jpg);" data-stellar-background-ratio="0.5">
 			<div class="overlay"></div>
 			<div class="container">
