@@ -17,6 +17,6 @@ Route::get('/register', function () {
     return view('frontend/register');
 });
 
-Route::get('/admin/contact', function () {
-    return view('admin/contacts');
+Route::get('/admin', function () {
+    return view('admin/index');
 });

@@ -7,8 +7,8 @@
   <!-- start linking  -->
   <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,800,900" rel="stylesheet">
   <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="assets/backend/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/backend/css/app.css">
   <!-- icon -->
   <link rel="icon" href="img/log.png">
   <!-- end linking -->

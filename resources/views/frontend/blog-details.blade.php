@@ -369,7 +369,7 @@
                             <h6 class="title">
                                 Email Address
                             </h6>
-                            <a href="mailto:contactinfo@example.com" class="mail">
+                            <a href="mailto:nguyenthanhphatdeveloper@gmail.com" class="mail">
                                 contactinfo@Mazin.com
                             </a>
                         </div>

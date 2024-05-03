@@ -7,10 +7,10 @@
   <!-- start linking  -->
   <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,800,900" rel="stylesheet">
   <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
-  <link rel="stylesheet" href="assets/backend/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/backend/css/app.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/app.css">
   <!-- icon -->
-  <link rel="icon" href="assets/img/log.png">
+  <link rel="icon" href="img/log.png">
   <!-- end linking -->
   <title>NutFlix - admin</title>
 </head>
@@ -22,7 +22,7 @@
     <!-- start with head -->
     <div class="head">
       <div class="logo">
-        <img src="assets/backend/img/logo-admin.png" alt="">
+        <img src="img/logo-admin.png" alt="">
       </div>
       <a href="#" class="btn btn-danger">SUBMIT new MOVIE</a>
     </div>
@@ -443,10 +443,10 @@
 </section>
 <!-- end admin -->
 <!-- start screpting -->
-<script src="backend/js/jquery.min.js"></script>
-<script src="backend/js/tether.min.js"></script>
-<script src="backend/js/bootstrap.min.js"></script>
-<script src="backend/js/app.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/tether.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/app.js"></script>
 <!-- end screpting -->
 </body>
 </html>

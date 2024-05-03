@@ -120,7 +120,7 @@
                     </div>
                     <div class="follow single">
                         <h6 class="title">
-                            FOLLOW US:
+                            FOLLOW ME:
                         </h6>
                         <div class="social-wrapper-two">
                             <ul class="social-area">
