@@ -1,0 +1,161 @@
+// rts cta section style
+
+.cta-main-wrapper{
+    background: #1E1E1E;
+    padding: 100px;
+    border-radius: 15px;
+    box-shadow: 0px 20px 40px #D8DDE1;
+    overflow: hidden;
+    position: relative;
+    @media #{$sm-layout} {
+        padding: 25px;
+    }
+    @media #{$large-mobile} {
+        padding: 10px;
+    }
+    .image-thumbnail{
+        position: absolute;
+        right: 60px;
+        bottom: 0;
+        @media #{$smlg-device} {
+            width: 50%;
+        }
+        @media #{$md-layout} {
+            width: 50%;
+            right: 0;
+        }
+        @media #{$sm-layout} {
+            display: none;
+        }
+    }
+    .content-wrapper{
+        .title{
+            color: #fff;
+        }
+        p{
+            &.disc{
+                color: #74787C;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+            }
+        }
+    }
+}
+
+.contact-area{
+    .call-inner{
+        display: flex;
+        margin-bottom: 35px;
+        align-items: center;
+        .call-area{
+            .icon{
+                margin-right: 20px;
+                svg{
+                    display: block;
+                    height: 65px;
+                    width: 65px;
+                    background: rgba(255, 255, 255, 0);
+                    border-radius: 50%;
+                    padding: 15px;
+                    border: 1px solid rgba(255, 255, 255, 0.05);
+                    overflow: visible;
+                }
+            }
+        }
+        .number{
+            span{
+                display: block;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 22px;
+                color: #74787C;
+                margin-bottom: 10px;
+            }
+            a{
+                color: #FFFFFF;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 27px;
+                margin-top: 10px;
+            }
+        }
+    }
+}
+
+
+// mazion cta start
+
+.mazin-cta{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px 102px;
+    background: #6344C6;
+    margin-bottom: -95px;
+    @media #{$sm-layout} {
+        padding: 30px;
+    }
+    @media #{$large-mobile} {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px 10px;
+    }
+    .left{
+        @media #{$large-mobile} {
+            margin-bottom: 20px;
+        }
+        .title{
+            color: #fff;
+            font-size: 48px;
+            @media #{$sm-layout} {
+                font-size: 32px;
+            }
+        }
+        .disc{
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 24px;
+            letter-spacing: 0.02em;
+            color: rgba(255, 255, 255, 0.6);
+        }
+    }
+    .right{
+        a{
+            &.rts-btn.btn-secondary-m{
+                letter-spacing: 0.1em;
+                text-transform: uppercase;
+                color: #fff;
+                font-weight: 400;
+                font-size: 16px;
+                font-family: var(--font-primary);
+                line-height: 24px;
+                border: 2px solid rgba(255, 255, 255, 0.1);
+                min-width: max-content;
+                &.btn-main{
+                    border-radius: 0;
+                    &:hover{
+                        background: none;
+                    }
+                    &::after{
+                        border-radius: 0;
+                        background: #1F1F21;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

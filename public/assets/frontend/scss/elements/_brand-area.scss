@@ -1,0 +1,40 @@
+// brand style hear
+
+
+.brand-container{
+    max-width: 1800px;
+    margin: auto;
+}
+
+.brand-main-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    @media screen and (max-width: 1920px) {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    @media #{$laptop-device} {
+        gap: 20px;
+    }
+    .rts-single-brand{
+        width: 360px;
+        height: 150px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 40px rgba(216, 221, 225, 0.6);
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: .3s;
+        @media #{$laptop-device} {
+            width: 180px;
+            height: 105px;
+            gap: 20px;
+        }
+        &:hover{
+            transform: translateY(-15px) scale(1.06);
+        }
+    }
+}

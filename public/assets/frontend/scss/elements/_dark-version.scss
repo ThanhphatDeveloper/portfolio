@@ -1,0 +1,706 @@
+// dark version style hear
+
+.dark-version{
+    background: #000;
+    .preloader{
+        background: #000;
+    }
+
+    // home mazin dark
+    &.home-mazin{
+        .mezin-form textarea,
+        .mezin-form .single-input-row input{
+            color: #fff;
+        }
+        .menu-area{
+            cursor: pointer;
+            svg{
+                path{
+                    fill: #ffffff;
+                    transition: .3s;
+                }
+                .two{
+                    stroke: #ffffff;
+                    transition: .3s;
+                }
+                &:hover{
+                    path{
+                        fill: #6344c6;
+                        // stroke: rgb(99, 68, 198);
+                        &.two{
+                            stroke: #6344c6;
+                        }
+                    }
+                }
+            }
+        }
+        background: #1F1F21;
+        .rts-mazin-testimonials-area .swiper-pagination-bullet {
+            background: rgb(68 68 68);
+            opacity: 1;
+            &.swiper-pagination-bullet-active{
+                background: #fff;
+            }
+        }
+        .bg-mazin {
+            background-image: url(../images/bg/bg-slider-mazin-dark.jpg);
+        }
+        .header-five-wrapper .menu-area ul li a::after {
+            bottom: -1px;
+        }
+        .header-five-wrapper{
+            .logo-area{
+                .thumbnail{
+                    .logo-for-white{
+                        display: none;
+                    }
+                    .logo-for-dark{
+                        display: block;
+                    }
+                }
+            }
+        }
+        .header-five-wrapper .menu-area ul li a,
+        .social-area-five .socials-text,
+        .contact-menu-area-five .sign-in-area .icon i,
+        .contact-menu-area-five .sign-in-area .sign-ion-text p{
+            color: #fff;
+            &:hover{
+                color: var(--color-primary-m);
+            }
+        }
+        .rts-header-five{
+            border-color: rgba(255, 255, 255, 0.10);
+        }
+        .social-area-five .socials ul li a i{
+            color: #fff;
+            &:hover{
+                color: var(--color-primary-m);
+            }
+        }
+        .contact-menu-area-five .sign-in-area .icon i{
+            border-color: rgba(255, 255, 255, 0.10);
+        }
+        .rts-banner-five-area-start .banner-five-left span.sub-five{
+            color: #fff;
+        }
+        .rts-banner-five-area-start .banner-five-left .rts-btn.btn-main{
+            color: #FFFFFF;
+            background: #1F1F21;
+            &::after{
+                background: #ffffff0d;
+            }
+        }
+        .rts-banner-five-area-start .banner-five-left .title{
+            color: #fff;
+        }
+        .rts-banner-five-area-start .thumbnail::before{
+            display: none;
+        }
+        .rts-banner-five-area-start .thumbnail::after{
+            display: none;
+        }
+        .rts-mazin-testimonials-area .swiper-button-prevs:hover::after, .rts-mazin-testimonials-area .swiper-button-nexts:hover::after{
+            color: #FFFFFF;
+        }
+        .banner-mazin-right-area .vedio-icone{
+            @media #{$extra-device} {
+                right: 60px;
+            }
+            @media #{$laptop-device} {
+                right: 80px;
+                top: 16%;
+            }
+            @media #{$large-mobile} {
+                right: 48px;
+            }
+        }
+        .rts-banner-five-area-start .thumbnail{
+            @media #{$laptop-device} {
+                margin-left: 0;
+            }
+            @media #{$smlg-device} {
+                margin-left: 0;
+            }
+        }
+        a.live-chat-option .detsil span.support{
+            color: #fff;
+        }
+        .bg-m-service {
+            background: rgba(255, 255, 255, 0.03);
+        }
+        .wrapper-about-five .rts-btn.btn-secondary-m{
+            border: 2px solid rgba(255, 255, 255, 0.1);
+            color: #FFFFFF;
+            background: none;
+            &:hover{
+                color: #FFFFFF;
+                &::after{
+                    background: #ffffff0d;
+                }
+            }
+            &:after{
+                background: #ffffff0d;
+            }
+        }
+        .rts-btn.btn-secondary-m{
+            border: 2px solid rgba(255, 255, 255, 0.1);
+            color: #FFFFFF;
+        }
+        .wrapper-about-five{
+            background: #232324;
+        }
+        .wrapper-about-five .discription-me{
+            color: rgba(255, 255, 255, 0.6);
+        }
+        .single-progress-area-h4 .progress{
+            background: rgba(255, 255, 255, 0.1);
+        }
+        .single-progress-area-h4 .progress-bar{
+            background: #fff;
+        }
+        .single-progress-area-h4 .progress-top p,
+        .single-progress-area-h4 .progress-top span.parcent{
+            color: #fff;
+        }
+        .wrapper-about-five .single-education .institute-area .period .time{
+            background: rgba(255, 255, 255, 0.1);
+            padding: 6px 10px;
+            color: #fff;
+        }
+        .wrapper-about-five .single-education .institute-area .period{
+            span{
+                &.sd{
+                    color: rgba(255, 255, 255, 0.6);
+                    font-weight: 200;
+                }
+            }
+        }
+        .left-title-mazin .subtitle span{
+            color: #fff;
+        }
+        .left-title-mazin .title{
+            color: #fff;
+        }
+        .single-award {
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .single-award .right span{
+            color: #fff;
+        }
+        .single-award .left a .title{
+            color: #fff;
+        }
+        .single-award .left p.disc{
+            color: #777777;
+        }
+        .marquee_text .js-marquee {
+            color: rgba(255, 255, 255, 0.1);
+        }
+        .faq-home-5-wrapper{
+            background: rgba(255, 255, 255, 0.03);
+        }
+        .faq-home-5-wrapper .accordion-faq-home-five .accordion-item{
+            background: #1F1F21;
+            box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.04);
+        }
+        .faq-home-5-wrapper .accordion-faq-home-five .accordion-item .accordion-header button{
+            background: #1F1F21;
+            color: #fff;
+        }
+        .faq-home-5-wrapper .accordion-faq-home-five .accordion-item .accordion-header button[aria-expanded=true]{
+            color: var(--color-primary-m);
+        }
+        .faq-home-5-wrapper .accordion-faq-home-five .accordion-item .accordion-body p{
+            color: #777777;
+            font-weight: 400;
+            font-size: 18px;
+            letter-spacing: 0.02em;
+        }
+        svg.radial-progress text{
+            fill: rgb(61 61 61 / 55%);
+        }
+        svg.radial-progress circle.bar-static{
+            stroke: rgba(255, 255, 255, 0.08) !important;
+        }
+        .single-progress-circle .small-text{
+            color: #fff;
+        }
+        svg.radial-progress{
+            border-color: rgba(255, 255, 255, 0.08) ;
+            &:hover{
+                text{
+                    fill: #fff;
+                }
+            }
+        }
+        .bg-contact-mazin{
+            background: rgba(255, 255, 255, 0.03);
+        }
+        .mezin-form .single-input-row input{
+            border-color: rgba(255, 255, 255, 0.1);
+            &:focus{
+                border-color: #FFFFFF;
+            }
+        }
+        .mezin-form textarea{
+            border-color: rgba(255, 255, 255, 0.1);
+            &:focus{
+                border-color: #FFFFFF;
+            }
+        }
+        .rts-blog-mazin-single a .title{
+            color: #fff;
+        }
+        .mazin-review-area-wrapper .content-inner p.review{
+            color: #fff;
+        }
+        .Swiper-mazin-testimonials .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+            background: #ededed;
+        }
+        .mazin-review-area-wrapper .content-inner .reviewer-wrapper a{
+            color: #fff;
+        }
+        .bg-footer-mazin{
+            background: rgba(255, 255, 255, 0.03);
+        }
+        .rts-copyright-mazin {
+            background: #1F1F21;
+        }
+        .header--sticky.sticky {
+            background: #353535 !important;
+        }
+        .wrapper-about-five .title-area .title.small{
+            background: #232324;
+            color: #fff;
+            border-color: rgba(255, 255, 255, 0.1);
+        }
+
+        .pagination-blog-mazin .swiper-button-prev{
+            border: 1px solid rgb(154 154 158 / 24%);
+        }
+        .pagination-blog-mazin .swiper-button-next{
+            border: 1px solid rgb(154 154 158 / 24%);
+        }
+        .pagination-blog-mazin .swiper-button-prev,
+        .pagination-blog-mazin .swiper-button-next{
+            &:hover{
+                border: 1px solid #FFFFFF;
+                &::after{
+                    color: #fff;
+                }
+            }
+        }
+        .Swiper-mazin-testimonials .swiper-button-next, .Swiper-mazin-testimonials .swiper-button-prev{
+            &::after{
+                color: rgb(154 154 158 / 24%);
+            }
+            &:hover{
+                &::after{
+                    color: #fff;
+                }
+            }
+        }
+        .wrapper-about-five .single-education .institute-details .title{
+            color: #fff;
+        }
+        .side-bar{
+            background: #0D0D0D;
+        }
+        ul#mobile-menu-active li a{
+            color: #fff;
+        }
+
+        .rts-sidebar-menu-desktop .inner-wrapper .contact-info-area-wrapper .single .social-wrapper-two ul li a{
+            &:hover{
+                i{
+                    color: var(--color-primary-m);
+                }
+            }
+        }
+
+    }
+
+
+    .modal-style-one {
+        background: #000000f5 !important;
+    }
+    
+    // button style
+    .rts-btn.btn-main {
+        background: #ffffff0d;
+        color: #ffffff;
+        border-width: 0;
+        &:hover{
+            background: none;
+        }
+    }
+    .mazin-cta .right a.rts-btn.btn-secondary-m{
+        color: #ffffff;
+        &:hover{
+            color: #ffffff;
+            &::after{
+                background: none   ;
+            }
+        }
+    }
+    .rts-contact-area .slider-div .left-contact-area form .btn-primary-m{
+        color: #FFFFFF;
+    }
+
+    .header-one {
+        background: #2d2d2d;
+    }
+    .banner-image-one {
+        background: #151515;
+    }
+    nav.main-nav ul li a{
+        color: #fff;
+    }
+    .banner-inner-one h1.title{
+        color: #fff;
+    }
+    .banner-inner-one span.pre-title{
+        color: #ffff;
+    }
+    .banner-inner-one p.disc{
+        color: #fff !important;
+    }
+    .shape-images-banner-one .one {
+        opacity: 0.02;
+    }
+    .shape-images-banner-one .two {
+        opacity: 0.015;
+    }
+    .shape-images-banner-one .three {
+        opacity: .02;
+    }
+    h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+        color: #fff;
+    }
+    .title-area-main-left span.pre-title{
+        color: #e4e4e4;
+    }
+    p{
+        color: #c3c3c3;
+    }
+    // bg shape home one url
+
+    .light-bg-inner-wrapper {
+        background-image: url(../images/bg/bg-body-lg-dark.png);
+    }
+    .single-blog-area-one a.thumbnail {
+        border-radius: 10px 10px 0 0;
+    }
+
+    .single-blog-area-one .inner-content {
+        background: #0d0d0d;
+        box-shadow: 0px 10px 33px rgb(0 0 0 / 4%);
+        border-radius: 0 0 10px 10px;
+    }
+
+    .portfolio-wrapper-one {
+        background: #0d0d0d;
+    }
+
+    .home-mazin button.close-icon-menu svg{
+        path{
+            stroke: #FFFFFF;
+        }
+    }
+    // modal background
+    .modal-style-one .modal-dialog .modal-content{
+        background: #181818;
+    }
+
+    // COLOR WHITE HEAR
+    .experience-one-inner .experience-right .icon i {
+        border: 1px solid #888888;
+        color: #ffffff;
+        background: #000;
+    }
+
+    .experience-one-inner .experience-left .end .title,
+    .experience-one-inner .experience-left .start p,
+    .main-testimonials .review-area p.disc,
+    .main-testimonials .review-area .full-deg span.degic,
+    .modal-style-one .modal-dialog .modal-content .modal-body form label{
+        color: #fff;
+    }
+
+    // service area dark version
+
+    .service-one-bg {
+        background-image: url(../images/service/bg-dark-01.png);
+    }
+
+    // background color black Hear
+    .single-service,
+    .modal-style-one .modal-dialog .modal-content .modal-body form textarea,
+    .modal-style-one .modal-dialog .modal-content .modal-body form input {
+        background: #000000;
+    }
+    .education-area .single-education .institute-area .name .title{
+        color: #ffffff;
+    }
+    .left-title-mazin.button .button-area .swiper-button-prev{
+        border-color: #FFFFFF;
+        &:hover{
+            &::after{
+                color: #FFFFFF;
+            }
+        }
+    }
+    .left-title-mazin.button .button-area .swiper-button-next{
+        border-color: #FFFFFF;
+        &:hover{
+            &::after{
+                color: #FFFFFF;
+            }
+        }
+    }
+
+
+    // index three dark
+    
+    &.home-mazin.marketer{
+        .banner-three-main .shape-image-banner-three img{
+            opacity: .1;
+        }
+        .banner-three-wrapper .title,
+        .title-area-h3 .title,
+        .rts-single-testimonials-h3 .client-profile-area .name{
+            color: #fff;
+        }    
+        .download-area-inner .socials p, .social-tag-wrapper .socials p,
+        .social-area-wrapper ul li a i,
+        .about-contact-h2 .single-contact .details a.disc,
+        .about-contact-h2 .single-contact .icon-area i,
+        .tab-area-main-wrapper ul.nav-tabs li button{
+            color: #fff;
+        }
+        .download-area-inner, .social-tag-wrapper,
+        .download-area-inner .socials ul li a, .social-tag-wrapper .socials ul li a,
+        .single-service-h3,
+        .single-tab-wrapper,
+        .about-contact-h2 .single-contact .icon-area i,
+        .counter-wrapper-h3 .single-counter-h3,
+        .brand-main-wrapper .rts-single-brand,
+        .rts-single-testimonials-h3 .top-area,
+        .rts-single-testimonials-h3 .top-area .start-area,
+        .rts-post-area-h2,
+        .tab-area-main-wrapper ul,
+        .single-univercity-exp-4 {
+            background: linear-gradient(130.08deg, #0d0300 0%, #191919 100%);
+            box-shadow: 0px 20px 40px #00000070;
+        }
+        .brand-main-wrapper .rts-single-brand{
+            img{
+                filter: contrast(0);
+            }
+        }
+    
+        .counter-wrapper-h3 .single-counter-h3 {
+            border: 1px solid rgb(38 38 38 / 77%);
+        }
+        button.close-icon-menu svg, .photographer-home button.close-icon-menu svg{
+            path{
+                stroke: #fff;
+            }
+        }
+
+        .tab-area-main-wrapper ul.nav-tabs li button {
+            border-right: 1px solid #1d1d1d;
+        }
+        .single-univercity-exp-4,
+        .single-award-area-marketer {
+            border: 1px solid #313131;
+        }
+
+
+    }
+
+    .banner-three-wrapper .right-area::before {
+        background: rgb(255 57 14 / 8%);
+    }
+
+    .banner-three-main::after {
+        background: rgb(255 57 14 / 8%);
+    }
+
+
+
+}
+.dark-version.five{
+    .header--sticky.sticky {
+        background: #2d2d2d !important;
+    }
+}
+
+
+
+
+// photography home style hear
+body.photographer-home{
+    &.dark-version{
+        .single-univercity-exp-4,
+        .single-award-area-marketer {
+            border: 1px solid #474747;
+        }
+        .progress {
+            background-color: #000000;
+        }
+        background: #2d2d2d !important;
+        .title{
+            color: #fff;
+        }
+        .home-2-banner-content,
+        .social-area-wrapper ul li a,
+        .rts-single-counter-up,
+        .single-tab-wrapper,
+        .about-contact-h2 .single-contact .icon-area i,
+        .rts-single-service-h2,
+        .single-product-area-h2,
+        .rts-post-area-h2,
+        .cta-main-wrapper,
+        .single-univercity-exp-4{
+            background: linear-gradient(130.08deg, #383528 0%, #191919 100%);
+            box-shadow: 0px 20px 40px #00000070;
+        }
+        .social-area-wrapper ul li a i,
+        .rts-single-counter-up h3 span,
+        .tab-area-main-wrapper ul.nav-tabs li button,
+        .about-contact-h2 .single-contact .icon-area i,
+        .about-contact-h2 .single-contact .details a.disc,
+        .h2-title-area.text-center .pre-title{
+            color: #fff;
+        }
+        .tab-area-main-wrapper ul{
+            background: #2d2b23;
+            box-shadow: none;
+        }
+
+        .h2-title-area.text-center .pre-title{
+            border: 1px solid #fff;
+        }
+
+
+        // title bg home yellow
+        .h2-title-area.text-center::after,
+        .h2-title-area::after {
+            background: linear-gradient(180deg, #00000000 0%, #2d2d2d 100%);
+        }
+
+        .h2-title-area.text-center span.bg-text,
+        .h2-title-area span.bg-text {
+            color: #d8d8d812;
+        }
+        .tab-area-main-wrapper ul.nav-tabs li button {
+            border-right: 1px solid #e7e7e721;
+        }
+
+        .side-bar{
+            background-color: black;
+            .inner-wrapper{
+                .contact-info-area-wrapper{
+                    .single{
+                        .title{
+                            color: #d8d8d8;
+                        }
+                    }
+                }
+            }
+        }
+        ul#mobile-menu-active li a{
+            color: #d8d8d8;
+        }
+    }
+
+
+
+
+}
+
+.home-four.home-mazin.dark-version{
+    .rts-banner-style-four .thumbnail .thumb-badge .right,
+    .social-area-wrapper ul li a i,
+    .banner-content-four span.pre-title,
+    .title-area-home-4 .pre-title,
+    .title-area-home-4 .title,
+    .single-skill-inner-4 .inner-text .title,
+    .accordion-skill-style .accordion-item .accordion-header button .left .disc .title,
+    .accordion-skill-style .accordion-item .accordion-header button .right,
+    .about-style-circle .details-about-area .experience-area p,
+    .product-title-tab-b .tab-button-area ul li button,
+    .rts-prodyct-style-four .thumbnail .icon i,
+    .rts-single-testimonials-h3 .client-profile-area .name,
+    .contact-form-style-four label,
+    .rts-single-contact-style-four .details-area a,
+    .accordion-skill-style .accordion-item .accordion-header button[aria-expanded=true]::before,
+    .accordion-skill-style .accordion-item .accordion-header button::before{
+        color: #fff;
+    }
+    .open-h2-menu-area.header-four,
+    .rts-banner-style-four .thumbnail .thumb-badge,
+    .socials.style-four ul li a,
+    .banner-content-four span.pre-title,
+    .title-area-home-4 .pre-title,
+    .accordion-skill-style .accordion-item,
+    .accordion-skill-style .accordion-item .accordion-header button::before,
+    .skill-style-four-main-wrapper,
+    .single-skill-inner-4,
+    .about-style-circle,
+    .rts-service-style-4,
+    .rts-prodyct-style-four,
+    .rts-prodyct-style-four .thumbnail .icon i,
+    .rts-single-testimonials-h3.style-four .top-area,
+    .rts-single-testimonials-h3.style-four .top-area .start-area,
+    .brand-main-wrapper .rts-single-brand,
+    .rts-post-area-h2 .content-area,
+    .rts-post-area-h2.style-four,
+    .rts-single-contact-style-four{
+        background: linear-gradient(130.08deg, #383528 0%, #191919 100%);
+        box-shadow: 0px 20px 40px #00000070;
+        border: 1px solid #3b3b3b;
+    }
+    .contact-form-style-four textarea,
+    .contact-form-style-four input {
+        background: #212121;
+        border: 1px solid #000000;
+    }
+    .rts-single-contact-style-four{
+        .icon-area{
+            img{
+                filter: contrast(0);
+            }
+        }
+    }
+    .accordion-skill-style .accordion-item .accordion-header button .left img{
+        filter: contrast(0);
+    }
+
+    // shape opacity
+    .rts-contact-area .shape-two ,
+    .rts-contact-area .shape-one,
+    .rts-about-area .shape-about-4,
+    .rts-skill-area .side-shape,
+    .shape-skill,
+    .rts-banner-style-four::after, 
+    .rts-banner-style-four .banner-shape-4{
+        opacity: .02;
+    }
+    .accordion-skill-style .accordion-item::after {
+        border: 1px solid #3f3f3f;
+    }
+    button.close-icon-menu svg path{
+        stroke: #fff;
+    }
+    .rts-sidebar-menu-desktop .inner-wrapper .contact-info-area-wrapper .phone a,
+    .rts-sidebar-menu-desktop .inner-wrapper .contact-info-area-wrapper .address a,
+    .rts-sidebar-menu-desktop .inner-wrapper .contact-info-area-wrapper .mail a,
+    .rts-sidebar-menu-desktop .inner-wrapper .contact-info-area-wrapper .single .social-wrapper-two ul li a i{
+        &:hover{
+            color: #FFAE00;
+        }
+    }
+}

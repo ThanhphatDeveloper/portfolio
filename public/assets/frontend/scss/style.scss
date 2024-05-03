@@ -1,0 +1,67 @@
+/*---------------------------
+ CSS Index  
+****************************
+
+1. variables
+2. typography
+3. spacing
+4. reset
+5. forms
+6. mixins
+7. shortcode
+8. common
+9. animations
+10. text-animation
+11. sal animation
+
+
+
+
+/* Default  */
+
+@import'default/variables';
+@import'default/typography';
+@import'default/spacing';
+@import'default/reset';
+@import'default/forms';
+@import'default/mixins';
+@import'default/shortcode';
+@import'default/common';
+@import'default/animations';
+@import'default/text-animation';
+@import'default/sal';
+
+
+
+/* Header area style  */
+
+@import'header/header.scss';
+@import'header/mobile-menu';
+
+
+/* elements area style  */
+
+@import'elements/button';
+@import'elements/banner';
+@import'elements/about';
+@import'elements/service';
+@import'elements/experience';
+@import'elements/product';
+@import'elements/blog';
+@import'elements/testimonials';
+@import'elements/back-top-top';
+@import'elements/modal-one';
+@import'elements/cta';
+@import'elements/brand-area';
+@import'elements/counter-up';
+@import'elements/contact';
+@import'elements/progressbar';
+@import'elements/preloader';
+@import'elements/dark-version';
+
+
+
+/* Footer area style  */
+
+@import'footer/footer.scss';
+

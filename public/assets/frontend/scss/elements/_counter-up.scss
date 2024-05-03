@@ -1,0 +1,90 @@
+.counter-wrapper-h3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    @media #{$smlg-device} {
+        justify-content: center;
+        gap: 30px;
+    }
+    @media #{$large-mobile} {
+        gap: 15px;
+    }
+    .single-counter-h3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        padding: 30px;
+        width: 230px;
+        border-radius: 15px;
+        height: 230px;
+        border: 1px solid rgba(209, 216, 223, 0.77);
+        background: linear-gradient(130.08deg, #FFFFFF 0%, #ECF0F3 100%);
+        transition: .3s;
+        h3{
+            font-weight: 500;
+            font-size: 48px;
+            line-height: 66px;
+            margin-bottom: 5px;
+        }
+        span{
+            margin-bottom: 0;
+        }
+        &:hover{
+            transform: translateY(-15px);
+        }
+    }
+}
+
+
+.counter-bg-4{
+    background-image: url(../images/bg/counter-up.jpg);
+    padding: 100px 0;
+    background-size: cover;
+}
+
+.main-wrapper-counter-up{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    @media #{$md-layout} {
+        gap: 30px;
+        justify-content: center;
+    }
+    @media #{$sm-layout} {
+        gap: 30px;
+        justify-content: center;
+    }
+}
+
+.single-counter-style-4{
+    display: flex;
+    .icon{
+        margin-right: 25px;
+    }
+    .inner{
+        .title{
+            color: #fff;
+            margin-bottom: 0;
+            position: relative;
+        }
+        span{
+            color: #fff;
+            position: relative;
+        }
+    }
+}
+.plus{
+    &::after{
+        position: absolute;
+        right: -20px;
+        content: '\f067';
+        font-family:"Font Awesome 5 Pro" !important;
+        color: #fff;
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+}
