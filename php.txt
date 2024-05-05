@@ -1,0 +1,7 @@
+php artisan make:controller PostController
+
+php artisan make:model Post -m
+
+php artisan migrate
+
+php artisan config:clear
