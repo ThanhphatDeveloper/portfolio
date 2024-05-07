@@ -5,3 +5,7 @@ php artisan make:model Post -m
 php artisan migrate
 
 php artisan config:clear
+
+php artisan key:generate
+
+cp .env.example .env
