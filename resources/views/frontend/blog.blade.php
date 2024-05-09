@@ -25,10 +25,10 @@
                 <div class="col-xl-8 col-lg-6 col-md-2 col-sm-0 col-6">
                     <nav class="main-nav d-xl-block d-none">
                         <ul id="nav">
-                            <li class="current"><a href="#home">Home</a></li>
+                            <li class="current"><a href="{{ route('index') }}">Home</a></li>
                             <li class=""><a href="#about">About</a></li>
                             <li class=""><a href="#service">Service</a></li>
-                            <li class=""><a href="#portfolio">Portfolio</a></li>
+                            <li class=""><a href="{{ route('index') }}">Portfolio</a></li>
                             <li class=""><a href="#contact">Contact</a></li>
                         </ul>
                     </nav>
@@ -61,7 +61,7 @@
             </div>
         </div>
         <div class="logo-area">
-            <a href="#" class="thumbnail">
+            <a href="{{ route('index') }}" class="thumbnail">
                 <img src="assets/frontend/images/logo/mazin-03.svg" alt="logo-images">
             </a>
         </div>

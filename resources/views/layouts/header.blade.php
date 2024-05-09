@@ -13,7 +13,7 @@
                         <li class="current"><a href="#about">About</a></li>
                         <li class=""><a href="#service">Service</a></li>
                         <li class=""><a href="#portfolio">Portfolio</a></li>
-                        <li class=""><a href="#blog">Blog</a></li>
+                        <li class=""><a href="{{ route('blogs') }}">Blog</a></li>
                         <li class=""><a href="#gettouch">Contacts</a></li>
                     </ul>
                 </nav>
