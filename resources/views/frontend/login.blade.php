@@ -7,18 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="A fully featured Tailwind CSS AUth Page Template." name="description" />
     <meta content="MyraStudio" name="author" />
-    <link rel="shortcut icon" href="assets/backend/images/favicon.ico">
-    <link href="assets/backend/css/tailwind.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="{{ asset('assets/backend/images/favicon.ico') }}">
+    <link href="{{ asset('assets/backend/css/tailwind.css') }}" rel="stylesheet" type="text/css" />
 </head>
 
 <body class="h-screen w-screen flex justify-center items-center bg-[url('../images/bg-auth.jpg')] relative bg-cover bg-top after:absolute after:inset-0 after:bg-black/50 after:-z-10">
     <div class="xl:w-1/2 md:w-3/4 w-full m-8 whitespace-nowrap">
         <div class="flex bg-white overflow-hidden rounded-xl">
             <div class="w-1/2 lg:block hidden p-2">
-                <img src="assets/backend/images/bg-auth-2.png" alt="" class="h-full w-full rounded-xl">
+                <img src="{{ asset('assets/backend/images/bg-auth-2.png') }}" alt="" class="h-full w-full rounded-xl">
             </div>
             <div class="lg:w-1/2 w-full">
-                <div class="px-6 py-8">
+                <form class="px-6 py-8">
+                    @csrf
                     <div class="flex justify-between items-start">
                         <h5 class="text-xl font-bold text-gray-700 mb-6">Login</h5>
 
@@ -56,7 +57,7 @@
                     </div>
 
                     <p class="text-gray-500 text-center">Don't have an account ?<a href="auth-register.html" class="text-sky-500 ms-1"><b>Register</b></a></p>
-                </div>
+                </form>
             </div>
         </div>
     </div>

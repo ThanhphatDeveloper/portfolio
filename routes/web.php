@@ -1,22 +1,14 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Auth;
+use App\Http\Controllers\HomeController;
+
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::get('/', function () {
-    return view('frontend/index');
-});
-
-
-
-// backend routes
-Route::get('/login', function () {
-    return view('frontend/login');
-});
-
-Route::get('/register', function () {
-    return view('frontend/register');
-});
-
-Route::get('/admin', function () {
-    return view('admin/index');
+    return view('frontend.index');
 });
