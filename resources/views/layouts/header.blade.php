@@ -9,8 +9,8 @@
             <div class="col-xl-8 justify-content-center d-flex d-none d-xl-block">
                 <nav class="main-nav">
                     <ul id="nav">
-                        <li class=""><a href="#home">Home</a></li>
-                        <li class="current"><a href="#about">About</a></li>
+                        <li class="current"><a href="#home">Home</a></li>
+                        <li class=""><a href="#about">About</a></li>
                         <li class=""><a href="#service">Service</a></li>
                         <li class=""><a href="#portfolio">Portfolio</a></li>
                         <li class=""><a href="{{ route('blogs') }}">Blog</a></li>
