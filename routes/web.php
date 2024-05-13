@@ -33,4 +33,7 @@ Route::get('/app', function () {
 Route::get('/dashboard', function () {
     return view('admin.index');
 });
+Route::get('/lock', function () {
+    return view('frontend.lock');
+});
 

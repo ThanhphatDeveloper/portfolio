@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="{{ asset('assets/backend/css/bootstrap.min.css') }}">
   <link rel="stylesheet" href="{{ asset('assets/backend/css/app.css') }}">
   <!-- icon -->
-  <link rel="icon" href="img/log.png">
+  <link rel="icon" href="{{ asset('assets/backend/img/log.png') }}">
   <!-- end linking -->
   <title>NutFlix - admin</title>
 </head>
