@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers\Auth;
-
+use App\Http\Controllers\Auth\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 
@@ -20,18 +20,18 @@ class LoginController extends Controller
 
     use AuthenticatesUsers;
 
-    /**
-     * Where to redirect users after login.
-     *
-     * @var string
-     */
-    protected $redirectTo = '/home';
+    protected $redirectTo = '/admin'; // Đặt đường dẫn sau khi đăng nhập thành công
 
-    /**
-     * Create a new controller instance.
-     *
-     * @return void
-     */
+    // Override method authenticated to customize the redirect
+    protected function authenticated($user)
+    {
+        if ($user->is_admin) {
+            return redirect()->route('admin.index');
+        }
+
+        return redirect('/home');
+    }
+
     public function __construct()
     {
         $this->middleware('guest')->except('logout');

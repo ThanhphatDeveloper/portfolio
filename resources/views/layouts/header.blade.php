@@ -3,7 +3,7 @@
         <div class="row align-items-center">
             <div class="col-xl-2 col-lg-6 col-md-6 col-sm-6 col-6">
                 <a href="index-two.html" class="thumbnail">
-                    <img src="assets/frontend/images/logo/mazin-02.svg" alt="pixxi_logo">
+                    <img src="{{ asset('assets/frontend/images/logo/mazin-02.svg') }}" alt="pixxi_logo">
                 </a>
             </div>
             <div class="col-xl-8 justify-content-center d-flex d-none d-xl-block">

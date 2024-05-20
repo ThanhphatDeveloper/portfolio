@@ -4,7 +4,7 @@
       <div class="logo">
         <img src="{{asset('assets/backend/img/logo-admin.png')}}" alt="">
       </div>
-      <a href="#" class="btn btn-danger">{{Auth::user()->name}}</a>
+      <a href="#" class="btn btn-danger">admin</a>
     </div>
     <!-- end with head -->
     <!-- start the list -->

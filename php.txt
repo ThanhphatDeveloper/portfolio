@@ -6,6 +6,8 @@ php artisan migrate
 
 php artisan config:clear
 
+php artisan cache:clear 
+
 php artisan key:generate
 
 cp .env.example .env

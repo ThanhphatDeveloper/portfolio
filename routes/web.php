@@ -6,6 +6,7 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\IndexController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\RegisterController;
+use App\Http\Controllers\AdminController;
 use App\Http\Controllers\Auth\ResetPasswordController;
 
 
@@ -19,21 +20,22 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::get('/register', [App\Http\Controllers\RegisterController::class,'register'])->name('register');
 Route::get('/reset', [App\Http\Controllers\Auth\ResetPasswordController::class,'resetpass'])->name('resetpass');
 
- 
-Route::get('/logins', function () {
-    return view('frontend.login');
-});
-Route::get('/recoverpw', function () {
-    return view('frontend.recoverpw');
-});
-Route::get('/app', function () {
-    return view('layouts.app');
+
+
+Route::get('/login', 'Auth\LoginController@showLoginForm')->name('login');
+Route::post('/login', 'Auth\LoginController@login');
+Route::get('/admin/dashboard', [AdminController::class, 'index'])->name('admin.index');
+
+Route::group(['middleware' => 'web'], function () {
+    Route::get('/admin', function () {
+        if (!Auth::check()) {
+            return redirect()->route('login'); // Chuyển hướng đến trang đăng nhập
+        }
+        return redirect()->route('admin.index'); // Nếu đã đăng nhập, chuyển hướng đến trang admin/login
+    });
 });
 
-Route::get('/dashboard', function () {
-    return view('admin.index');
-});
-Route::get('/lock', function () {
-    return view('frontend.lock');
-});
+
+
+
 
