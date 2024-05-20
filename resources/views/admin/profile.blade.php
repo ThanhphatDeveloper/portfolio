@@ -24,7 +24,7 @@
       <div class="logo">
         <img src="img/logo-admin.png" alt="">
       </div>
-      <a href="#" class="btn btn-danger">SUBMIT new MOVIE</a>
+      <a href="#" class="btn btn-danger">{{Auth::user()->name}}</a>
     </div>
     <!-- end with head -->
     <!-- start the list -->
