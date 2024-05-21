@@ -22,20 +22,6 @@ Route::get('/reset', [App\Http\Controllers\Auth\ResetPasswordController::class,'
 
 
 
-Route::get('/login', 'Auth\LoginController@showLoginForm')->name('login');
-Route::post('/login', 'Auth\LoginController@login');
-Route::get('/admin/dashboard', [AdminController::class, 'index'])->name('admin.index');
-
-Route::group(['middleware' => 'web'], function () {
-    Route::get('/admin', function () {
-        if (!Auth::check()) {
-            return redirect()->route('login'); // Chuyển hướng đến trang đăng nhập
-        }
-        return redirect()->route('admin.index'); // Nếu đã đăng nhập, chuyển hướng đến trang admin/login
-    });
-});
-
-
 
 
 

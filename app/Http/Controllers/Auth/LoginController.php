@@ -3,7 +3,9 @@
 namespace App\Http\Controllers\Auth;
 use App\Http\Controllers\Auth\Request;
 use App\Http\Controllers\Controller;
+
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
+use Symfony\Contracts\Service\Attribute\Required;
 
 class LoginController extends Controller
 {
