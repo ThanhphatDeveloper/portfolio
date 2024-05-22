@@ -1,11 +1,11 @@
 <?php
 
 namespace App\Http\Controllers\Auth;
-use App\Http\Controllers\Auth\Request;
-use App\Http\Controllers\Controller;
 
+use App\Http\Controllers\Controller;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
-use Symfony\Contracts\Service\Attribute\Required;
 
 class LoginController extends Controller
 {
@@ -20,12 +20,10 @@ class LoginController extends Controller
     |
     */
 
+    // Override method authenticated to customize the redirect
     use AuthenticatesUsers;
 
-    protected $redirectTo = '/admin'; // Đặt đường dẫn sau khi đăng nhập thành công
-
-    // Override method authenticated to customize the redirect
-    protected function authenticated($user)
+    protected function authenticated(Request $request, $user)
     {
         if ($user->is_admin) {
             return redirect()->route('admin.index');

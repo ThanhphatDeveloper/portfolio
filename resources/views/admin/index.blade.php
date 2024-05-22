@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <!-- start linking  -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,800,900" rel="stylesheet">
     <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
@@ -13,8 +14,7 @@
     <!-- icon -->
     <link rel="icon" href="{{ asset('assets/backend/img/log.png') }}">
     <!-- end linking -->
-    <title>
-        {{ Auth::user()->name }}</title>
+    <title>{{ Auth::user()->name }}</title>
 </head>
 
 <body>
@@ -143,7 +143,8 @@
                             <div class="card">
                                 <h1 class="head">Users</h1>
                                 <div class="user">
-                                    <div class="uImg"><img src="{{ asset('assets/backend/img/act/1.jpg') }}" alt=""></div>
+                                    <div class="uImg"><img src="{{ asset('assets/backend/img/act/1.jpg') }}"
+                                            alt=""></div>
                                     <div class="info">
                                         <h1>Josephine Walker</h1>
                                         <p>Apple Iwork 08 Review</p>
@@ -153,7 +154,8 @@
                                     </div>
                                 </div>
                                 <div class="user">
-                                    <div class="uImg"><img src="{{ asset('assets/backend/img/act/1.jpg') }}" alt=""></div>
+                                    <div class="uImg"><img src="{{ asset('assets/backend/img/act/1.jpg') }}"
+                                            alt=""></div>
                                     <div class="info">
                                         <h1>Josephine Walker</h1>
                                         <p>Apple Iwork 08 Review</p>
@@ -163,7 +165,8 @@
                                     </div>
                                 </div>
                                 <div class="user">
-                                    <div class="uImg"><img src="{{ asset('assets/backend/img/act/1.jpg') }}" alt=""></div>
+                                    <div class="uImg"><img src="{{ asset('assets/backend/img/act/1.jpg') }}"
+                                            alt=""></div>
                                     <div class="info">
                                         <h1>Josephine Walker</h1>
                                         <p>Apple Iwork 08 Review</p>
@@ -173,7 +176,8 @@
                                     </div>
                                 </div>
                                 <div class="user">
-                                    <div class="uImg"><img src="{{ asset('assets/backend/img/act/1.jpg') }}" alt=""></div>
+                                    <div class="uImg"><img src="{{ asset('assets/backend/img/act/1.jpg') }}"
+                                            alt=""></div>
                                     <div class="info">
                                         <h1>Josephine Walker</h1>
                                         <p>Apple Iwork 08 Review</p>
@@ -192,7 +196,8 @@
                             <div class="card">
                                 <h1 class="head">messages</h1>
                                 <div class="user">
-                                    <div class="uImg"><img src="{{ asset('assets/backend/img/act/1.jpg') }}" alt=""></div>
+                                    <div class="uImg"><img src="{{ asset('assets/backend/img/act/1.jpg') }}"
+                                            alt=""></div>
                                     <div class="info">
                                         <h1>Josephine Walker</h1>
                                         <p>Apple Iwork 08 Review</p>
@@ -202,7 +207,8 @@
                                     </div>
                                 </div>
                                 <div class="user">
-                                    <div class="uImg"><img src="{{ asset('assets/backend/img/act/1.jpg') }}" alt=""></div>
+                                    <div class="uImg"><img src="{{ asset('assets/backend/img/act/1.jpg') }}"
+                                            alt=""></div>
                                     <div class="info">
                                         <h1>Josephine Walker</h1>
                                         <p>Apple Iwork 08 Review</p>
@@ -212,7 +218,8 @@
                                     </div>
                                 </div>
                                 <div class="user">
-                                    <div class="uImg"><img src="{{ asset('assets/backend/img/act/1.jpg') }}" alt=""></div>
+                                    <div class="uImg"><img src="{{ asset('assets/backend/img/act/1.jpg') }}"
+                                            alt=""></div>
                                     <div class="info">
                                         <h1>Josephine Walker</h1>
                                         <p>Apple Iwork 08 Review</p>
@@ -222,7 +229,8 @@
                                     </div>
                                 </div>
                                 <div class="user">
-                                    <div class="uImg"><img src="{{ asset('assets/backend/img/act/1.jpg') }}" alt=""></div>
+                                    <div class="uImg"><img src="{{ asset('assets/backend/img/act/1.jpg') }}"
+                                            alt=""></div>
                                     <div class="info">
                                         <h1>Josephine Walker</h1>
                                         <p>Apple Iwork 08 Review</p>
@@ -483,12 +491,12 @@
     </section>
     <!-- end admin -->
     <!-- start screpting -->
-    <script src="{{ asset('assets/backend/js/jquery.min.js') }}"></script>
-    <script src="{{ asset('assets/backend/js/tether.min.js') }}"></script>
-    <script src="{{ asset('assets/backend/js/tether.min.js') }}"></script>
-    <script src="{{ asset('assets/backend/js/highcharts.js') }}"></script>
-    <script src="{{ asset('assets/backend/js/chart.js') }}"></script>
-    <script src="{{ asset('assets/backend/js/app.js') }}"></script>
+    <script src="assets/backend/js/jquery.min.js"></script>
+    <script src="assets/backend/js/tether.min.js"></script>
+    <script src="assets/backend/js/bootstrap.min.js"></script>
+    <script src="assets/backend/js/highcharts.js"></script>
+    <script src="assets/backend/js/chart.js"></script>
+    <script src="assets/backend/js/app.js"></script>
     <!-- end screpting -->
 </body>
 

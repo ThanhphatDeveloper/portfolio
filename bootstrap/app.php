@@ -9,18 +9,16 @@ return Application::configure(basePath: dirname(__DIR__))
         web: __DIR__.'/../routes/web.php',
         commands: __DIR__.'/../routes/console.php',
         health: '/up',
+        
     )
     ->withMiddleware(function (Middleware $middleware) {
-        //
+         
     })
     ->withExceptions(function (Exceptions $exceptions) {
         //
     })->create();
 
-    $app->routeMiddleware([
-        // Các middleware khác...
-        'admin' => App\Http\Middleware\AdminMiddleware::class,
-    ]);
+    
 
     
 
