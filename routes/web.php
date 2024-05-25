@@ -17,8 +17,11 @@ Auth::routes();
 Route::get('/', [App\Http\Controllers\IndexController::class, 'index'])->name('index');
 Route::get('/blogs', [App\Http\Controllers\BlogController::class, 'blogs'])->name('blogs');
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/projects', [App\Http\Controllers\ProjectsController::class, 'projects'])->name('projects');
 Route::get('/register', [App\Http\Controllers\RegisterController::class,'register'])->name('register');
-Route::get('/reset', [App\Http\Controllers\Auth\ResetPasswordController::class,'resetpass'])->name('resetpass');
+
+
+
 
 
 // Route cho trang admin với middleware

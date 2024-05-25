@@ -364,14 +364,14 @@
     <!-- about section hear -->
     <div class="rts-about-area four rts-section-gap2Bottom" id="about">
         <div class="shape-about-4">
-            <img src="assets/frontend/images/about/shape/02.png" alt="shape">
+            <img src="{{asset('assets/frontend/images/about/shape/02.png')}}" alt="shape">
         </div>
         <div class="container-about">
             <div class="about-style-circle">
                 <div class="row">
                     <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12">
                         <div class="thumbnail">
-                            <img src="assets/frontend/images/about/04.png" alt="">
+                            <img src="{{asset('assets/frontend/images/about/04.png')}}" alt="">
                         </div>
                     </div>
                     <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12">
@@ -389,8 +389,8 @@
                                 <p class="exp">Experience: <span>4 Years</span></p>
                                 <p class="exp">Specialty: <span> Product Designer, Developer</span></p>
                                 <p class="exp">Address: <span>California, USA</span></p>
-                                <p class="exp">Email: <span>pixxi.me2000@mail.com</span></p>
-                                <p class="exp">Phone: <span>+1 236 123 456 789</span></p>
+                                <p class="exp">Email: <span>admin@nguyenthanhphat.id.vn</span></p>
+                                <p class="exp">Phone: <span>+84353 110 711</span></p>
                                 <p class="exp">Freelance: <span>Available</span></p>
                             </div>
                             <a href="#portfolio" class="rts-btn btn-main-2 smooth-scroll-1 mt--40">View All
@@ -702,7 +702,6 @@
     </div>
     <!-- rts service area end -->
 
-
     <!-- product tab area -->
     <div class="rts-product-area rts-section-gap2Bottom" id="portfolio">
         <div class="container">
@@ -760,15 +759,15 @@
                                 <div class="col-lg-3 col-md-6 col-sm-12 col-12">
                                     <div class="rts-prodyct-style-four">
                                         <div class="thumbnail">
-                                            <a href="project-details.html" class="thumbnail-img">
+                                            <a href="{{ route('projects') }}" class="thumbnail-img">
                                                 <img src="assets/frontend/images/product/10.jpg" alt="product-image">
                                             </a>
                                             <div class="icon">
-                                                <a href="project-details.html"><i class="fal fa-arrow-right"></i></a>
+                                                <a href="{{ route('projects') }}"><i class="fal fa-arrow-right"></i></a>
                                             </div>
                                             <div class="inner-text">
                                                 <span>Website Design</span>
-                                                <a href="project-details.html">
+                                                <a href="{{ route('projects') }}">
                                                     <h5 class="title">News Website Design</h5>
                                                 </a>
                                             </div>
@@ -778,15 +777,15 @@
                                 <div class="col-lg-3 col-md-6 col-sm-12 col-12">
                                     <div class="rts-prodyct-style-four">
                                         <div class="thumbnail">
-                                            <a href="project-details.html" class="thumbnail-img">
+                                            <a href="{{ route('projects') }}" class="thumbnail-img">
                                                 <img src="assets/frontend/images/product/11.jpg" alt="product-image">
                                             </a>
                                             <div class="icon">
-                                                <a href="project-details.html"><i class="fal fa-arrow-right"></i></a>
+                                                <a href="{{ route('projects') }}"><i class="fal fa-arrow-right"></i></a>
                                             </div>
                                             <div class="inner-text">
                                                 <span>Website Design</span>
-                                                <a href="project-details.html">
+                                                <a href="{{ route('projects') }}">
                                                     <h5 class="title">News Website Design</h5>
                                                 </a>
                                             </div>
@@ -796,15 +795,15 @@
                                 <div class="col-lg-6 col-md-6 col-sm-12 co-12">
                                     <div class="rts-prodyct-style-four">
                                         <div class="thumbnail">
-                                            <a href="project-details.html" class="thumbnail-img">
+                                            <a href="{{ route('projects') }}" class="thumbnail-img">
                                                 <img src="assets/frontend/images/product/12.jpg" alt="product-image">
                                             </a>
                                             <div class="icon">
-                                                <a href="project-details.html"><i class="fal fa-arrow-right"></i></a>
+                                                <a href="{{ route('projects') }}"><i class="fal fa-arrow-right"></i></a>
                                             </div>
                                             <div class="inner-text">
                                                 <span>Website Design</span>
-                                                <a href="project-details.html">
+                                                <a href="{{ route('projects') }}">
                                                     <h5 class="title">News Website Design</h5>
                                                 </a>
                                             </div>
@@ -814,15 +813,15 @@
                                 <div class="col-lg-6 col-md-6 col-sm-12 co-12">
                                     <div class="rts-prodyct-style-four">
                                         <div class="thumbnail">
-                                            <a href="project-details.html" class="thumbnail-img">
+                                            <a href="{{ route('projects') }}" class="thumbnail-img">
                                                 <img src="assets/frontend/images/product/13.jpg" alt="product-image">
                                             </a>
                                             <div class="icon">
-                                                <a href="project-details.html"><i class="fal fa-arrow-right"></i></a>
+                                                <a href="{{ route('projects') }}"><i class="fal fa-arrow-right"></i></a>
                                             </div>
                                             <div class="inner-text">
                                                 <span>Website Design</span>
-                                                <a href="project-details.html">
+                                                <a href="{{ route('projects') }}">
                                                     <h5 class="title">News Website Design</h5>
                                                 </a>
                                             </div>
@@ -832,15 +831,15 @@
                                 <div class="col-lg-3 col-md-6 col-sm-12 col-12">
                                     <div class="rts-prodyct-style-four">
                                         <div class="thumbnail">
-                                            <a href="project-details.html" class="thumbnail-img">
+                                            <a href="{{ route('projects') }}" class="thumbnail-img">
                                                 <img src="assets/frontend/images/product/14.jpg" alt="product-image">
                                             </a>
                                             <div class="icon">
-                                                <a href="project-details.html"><i class="fal fa-arrow-right"></i></a>
+                                                <a href="{{ route('projects') }}"><i class="fal fa-arrow-right"></i></a>
                                             </div>
                                             <div class="inner-text">
                                                 <span>Website Design</span>
-                                                <a href="project-details.html">
+                                                <a href="{{ route('projects') }}">
                                                     <h5 class="title">News Website Design</h5>
                                                 </a>
                                             </div>
@@ -850,15 +849,15 @@
                                 <div class="col-lg-3 col-md-6 col-sm-12 col-12">
                                     <div class="rts-prodyct-style-four">
                                         <div class="thumbnail">
-                                            <a href="project-details.html" class="thumbnail-img">
+                                            <a href="{{ route('projects') }}" class="thumbnail-img">
                                                 <img src="assets/frontend/images/product/15.jpg" alt="product-image">
                                             </a>
                                             <div class="icon">
-                                                <a href="project-details.html"><i class="fal fa-arrow-right"></i></a>
+                                                <a href="{{ route('projects') }}"><i class="fal fa-arrow-right"></i></a>
                                             </div>
                                             <div class="inner-text">
                                                 <span>Website Design</span>
-                                                <a href="project-details.html">
+                                                <a href="{{ route('projects') }}">
                                                     <h5 class="title">News Website Design</h5>
                                                 </a>
                                             </div>
@@ -872,15 +871,15 @@
                                 <div class="col-lg-3 col-md-6 col-sm-12 col-12">
                                     <div class="rts-prodyct-style-four">
                                         <div class="thumbnail">
-                                            <a href="project-details.html" class="thumbnail-img">
+                                            <a href="{{ route('projects') }}" class="thumbnail-img">
                                                 <img src="assets/frontend/images/product/10.jpg" alt="product-image">
                                             </a>
                                             <div class="icon">
-                                                <a href="project-details.html"><i class="fal fa-arrow-right"></i></a>
+                                                <a href="{{ route('projects') }}"><i class="fal fa-arrow-right"></i></a>
                                             </div>
                                             <div class="inner-text">
                                                 <span>Website Design</span>
-                                                <a href="project-details.html">
+                                                <a href="{{ route('projects') }}">
                                                     <h5 class="title">News Website Design</h5>
                                                 </a>
                                             </div>
@@ -890,15 +889,15 @@
                                 <div class="col-lg-3 col-md-6 col-sm-12 col-12">
                                     <div class="rts-prodyct-style-four">
                                         <div class="thumbnail">
-                                            <a href="project-details.html" class="thumbnail-img">
+                                            <a href="{{ route('projects') }}" class="thumbnail-img">
                                                 <img src="assets/frontend/images/product/11.jpg" alt="product-image">
                                             </a>
                                             <div class="icon">
-                                                <a href="project-details.html"><i class="fal fa-arrow-right"></i></a>
+                                                <a href="{{ route('projects') }}"><i class="fal fa-arrow-right"></i></a>
                                             </div>
                                             <div class="inner-text">
                                                 <span>Website Design</span>
-                                                <a href="project-details.html">
+                                                <a href="{{ route('projects') }}">
                                                     <h5 class="title">News Website Design</h5>
                                                 </a>
                                             </div>
@@ -908,15 +907,15 @@
                                 <div class="col-lg-6 col-md-6 col-sm-12 co-12">
                                     <div class="rts-prodyct-style-four">
                                         <div class="thumbnail">
-                                            <a href="project-details.html" class="thumbnail-img">
+                                            <a href="{{ route('projects') }}" class="thumbnail-img">
                                                 <img src="assets/frontend/images/product/12.jpg" alt="product-image">
                                             </a>
                                             <div class="icon">
-                                                <a href="project-details.html"><i class="fal fa-arrow-right"></i></a>
+                                                <a href="{{ route('projects') }}"><i class="fal fa-arrow-right"></i></a>
                                             </div>
                                             <div class="inner-text">
                                                 <span>Website Design</span>
-                                                <a href="project-details.html">
+                                                <a href="{{ route('projects') }}">
                                                     <h5 class="title">News Website Design</h5>
                                                 </a>
                                             </div>
@@ -926,15 +925,15 @@
                                 <div class="col-lg-6 col-md-6 col-sm-12 co-12">
                                     <div class="rts-prodyct-style-four">
                                         <div class="thumbnail">
-                                            <a href="project-details.html" class="thumbnail-img">
+                                            <a href="{{ route('projects') }}" class="thumbnail-img">
                                                 <img src="assets/frontend/images/product/13.jpg" alt="product-image">
                                             </a>
                                             <div class="icon">
-                                                <a href="project-details.html"><i class="fal fa-arrow-right"></i></a>
+                                                <a href="{{ route('projects') }}"><i class="fal fa-arrow-right"></i></a>
                                             </div>
                                             <div class="inner-text">
                                                 <span>Website Design</span>
-                                                <a href="project-details.html">
+                                                <a href="{{ route('projects') }}">
                                                     <h5 class="title">News Website Design</h5>
                                                 </a>
                                             </div>
@@ -944,15 +943,15 @@
                                 <div class="col-lg-3 col-md-6 col-sm-12 col-12">
                                     <div class="rts-prodyct-style-four">
                                         <div class="thumbnail">
-                                            <a href="project-details.html" class="thumbnail-img">
+                                            <a href="{{ route('projects') }}" class="thumbnail-img">
                                                 <img src="assets/frontend/images/product/14.jpg" alt="product-image">
                                             </a>
                                             <div class="icon">
-                                                <a href="project-details.html"><i class="fal fa-arrow-right"></i></a>
+                                                <a href="{{ route('projects') }}"><i class="fal fa-arrow-right"></i></a>
                                             </div>
                                             <div class="inner-text">
                                                 <span>Website Design</span>
-                                                <a href="project-details.html">
+                                                <a href="{{ route('projects') }}">
                                                     <h5 class="title">News Website Design</h5>
                                                 </a>
                                             </div>
@@ -962,15 +961,15 @@
                                 <div class="col-lg-3 col-md-6 col-sm-12 col-12">
                                     <div class="rts-prodyct-style-four">
                                         <div class="thumbnail">
-                                            <a href="project-details.html" class="thumbnail-img">
+                                            <a href="{{ route('projects') }}" class="thumbnail-img">
                                                 <img src="assets/frontend/images/product/15.jpg" alt="product-image">
                                             </a>
                                             <div class="icon">
-                                                <a href="project-details.html"><i class="fal fa-arrow-right"></i></a>
+                                                <a href="{{ route('projects') }}"><i class="fal fa-arrow-right"></i></a>
                                             </div>
                                             <div class="inner-text">
                                                 <span>Website Design</span>
-                                                <a href="project-details.html">
+                                                <a href="{{ route('projects') }}">
                                                     <h5 class="title">News Website Design</h5>
                                                 </a>
                                             </div>
@@ -984,15 +983,15 @@
                                 <div class="col-lg-3 col-md-6 col-sm-12 col-12">
                                     <div class="rts-prodyct-style-four">
                                         <div class="thumbnail">
-                                            <a href="project-details.html" class="thumbnail-img">
+                                            <a href="{{ route('projects') }}" class="thumbnail-img">
                                                 <img src="assets/frontend/images/product/10.jpg" alt="product-image">
                                             </a>
                                             <div class="icon">
-                                                <a href="project-details.html"><i class="fal fa-arrow-right"></i></a>
+                                                <a href="{{ route('projects') }}"><i class="fal fa-arrow-right"></i></a>
                                             </div>
                                             <div class="inner-text">
                                                 <span>Website Design</span>
-                                                <a href="project-details.html">
+                                                <a href="{{ route('projects') }}">
                                                     <h5 class="title">News Website Design</h5>
                                                 </a>
                                             </div>
@@ -1002,15 +1001,15 @@
                                 <div class="col-lg-3 col-md-6 col-sm-12 col-12">
                                     <div class="rts-prodyct-style-four">
                                         <div class="thumbnail">
-                                            <a href="project-details.html" class="thumbnail-img">
+                                            <a href="{{ route('projects') }}" class="thumbnail-img">
                                                 <img src="assets/frontend/images/product/11.jpg" alt="product-image">
                                             </a>
                                             <div class="icon">
-                                                <a href="project-details.html"><i class="fal fa-arrow-right"></i></a>
+                                                <a href="{{ route('projects') }}"><i class="fal fa-arrow-right"></i></a>
                                             </div>
                                             <div class="inner-text">
                                                 <span>Website Design</span>
-                                                <a href="project-details.html">
+                                                <a href="{{ route('projects') }}">
                                                     <h5 class="title">News Website Design</h5>
                                                 </a>
                                             </div>
@@ -1020,15 +1019,15 @@
                                 <div class="col-lg-6 col-md-6 col-sm-12 co-12">
                                     <div class="rts-prodyct-style-four">
                                         <div class="thumbnail">
-                                            <a href="project-details.html" class="thumbnail-img">
+                                            <a href="{{ route('projects') }}" class="thumbnail-img">
                                                 <img src="assets/frontend/images/product/12.jpg" alt="product-image">
                                             </a>
                                             <div class="icon">
-                                                <a href="project-details.html"><i class="fal fa-arrow-right"></i></a>
+                                                <a href="{{ route('projects') }}"><i class="fal fa-arrow-right"></i></a>
                                             </div>
                                             <div class="inner-text">
                                                 <span>Website Design</span>
-                                                <a href="project-details.html">
+                                                <a href="{{ route('projects') }}">
                                                     <h5 class="title">News Website Design</h5>
                                                 </a>
                                             </div>
@@ -1038,15 +1037,15 @@
                                 <div class="col-lg-6 col-md-6 col-sm-12 co-12">
                                     <div class="rts-prodyct-style-four">
                                         <div class="thumbnail">
-                                            <a href="project-details.html" class="thumbnail-img">
+                                            <a href="{{ route('projects') }}" class="thumbnail-img">
                                                 <img src="assets/frontend/images/product/13.jpg" alt="product-image">
                                             </a>
                                             <div class="icon">
-                                                <a href="project-details.html"><i class="fal fa-arrow-right"></i></a>
+                                                <a href="{{ route('projects') }}"><i class="fal fa-arrow-right"></i></a>
                                             </div>
                                             <div class="inner-text">
                                                 <span>Website Design</span>
-                                                <a href="project-details.html">
+                                                <a href="{{ route('projects') }}">
                                                     <h5 class="title">News Website Design</h5>
                                                 </a>
                                             </div>
@@ -1056,15 +1055,15 @@
                                 <div class="col-lg-3 col-md-6 col-sm-12 col-12">
                                     <div class="rts-prodyct-style-four">
                                         <div class="thumbnail">
-                                            <a href="project-details.html" class="thumbnail-img">
+                                            <a href="{{ route('projects') }}" class="thumbnail-img">
                                                 <img src="assets/frontend/images/product/14.jpg" alt="product-image">
                                             </a>
                                             <div class="icon">
-                                                <a href="project-details.html"><i class="fal fa-arrow-right"></i></a>
+                                                <a href="{{ route('projects') }}"><i class="fal fa-arrow-right"></i></a>
                                             </div>
                                             <div class="inner-text">
                                                 <span>Website Design</span>
-                                                <a href="project-details.html">
+                                                <a href="{{ route('projects') }}">
                                                     <h5 class="title">News Website Design</h5>
                                                 </a>
                                             </div>
@@ -1074,15 +1073,15 @@
                                 <div class="col-lg-3 col-md-6 col-sm-12 col-12">
                                     <div class="rts-prodyct-style-four">
                                         <div class="thumbnail">
-                                            <a href="project-details.html" class="thumbnail-img">
+                                            <a href="{{ route('projects') }}" class="thumbnail-img">
                                                 <img src="assets/frontend/images/product/15.jpg" alt="product-image">
                                             </a>
                                             <div class="icon">
-                                                <a href="project-details.html"><i class="fal fa-arrow-right"></i></a>
+                                                <a href="{{ route('projects') }}"><i class="fal fa-arrow-right"></i></a>
                                             </div>
                                             <div class="inner-text">
                                                 <span>Website Design</span>
-                                                <a href="project-details.html">
+                                                <a href="{{ route('projects') }}">
                                                     <h5 class="title">News Website Design</h5>
                                                 </a>
                                             </div>
@@ -1096,15 +1095,15 @@
                                 <div class="col-lg-3 col-md-6 col-sm-12 col-12">
                                     <div class="rts-prodyct-style-four">
                                         <div class="thumbnail">
-                                            <a href="project-details.html" class="thumbnail-img">
+                                            <a href="{{ route('projects') }}" class="thumbnail-img">
                                                 <img src="assets/frontend/images/product/10.jpg" alt="product-image">
                                             </a>
                                             <div class="icon">
-                                                <a href="project-details.html"><i class="fal fa-arrow-right"></i></a>
+                                                <a href="{{ route('projects') }}"><i class="fal fa-arrow-right"></i></a>
                                             </div>
                                             <div class="inner-text">
                                                 <span>Website Design</span>
-                                                <a href="project-details.html">
+                                                <a href="{{ route('projects') }}">
                                                     <h5 class="title">News Website Design</h5>
                                                 </a>
                                             </div>
@@ -1114,15 +1113,15 @@
                                 <div class="col-lg-3 col-md-6 col-sm-12 col-12">
                                     <div class="rts-prodyct-style-four">
                                         <div class="thumbnail">
-                                            <a href="project-details.html" class="thumbnail-img">
+                                            <a href="{{ route('projects') }}" class="thumbnail-img">
                                                 <img src="assets/frontend/images/product/11.jpg" alt="product-image">
                                             </a>
                                             <div class="icon">
-                                                <a href="project-details.html"><i class="fal fa-arrow-right"></i></a>
+                                                <a href="{{ route('projects') }}"><i class="fal fa-arrow-right"></i></a>
                                             </div>
                                             <div class="inner-text">
                                                 <span>Website Design</span>
-                                                <a href="project-details.html">
+                                                <a href="{{ route('projects') }}">
                                                     <h5 class="title">News Website Design</h5>
                                                 </a>
                                             </div>
@@ -1132,15 +1131,15 @@
                                 <div class="col-lg-6 col-md-6 col-sm-12 co-12">
                                     <div class="rts-prodyct-style-four">
                                         <div class="thumbnail">
-                                            <a href="project-details.html" class="thumbnail-img">
+                                            <a href="{{ route('projects') }}" class="thumbnail-img">
                                                 <img src="assets/frontend/images/product/12.jpg" alt="product-image">
                                             </a>
                                             <div class="icon">
-                                                <a href="project-details.html"><i class="fal fa-arrow-right"></i></a>
+                                                <a href="{{ route('projects') }}"><i class="fal fa-arrow-right"></i></a>
                                             </div>
                                             <div class="inner-text">
                                                 <span>Website Design</span>
-                                                <a href="project-details.html">
+                                                <a href="{{ route('projects') }}">
                                                     <h5 class="title">News Website Design</h5>
                                                 </a>
                                             </div>
@@ -1150,15 +1149,15 @@
                                 <div class="col-lg-6 col-md-6 col-sm-12 co-12">
                                     <div class="rts-prodyct-style-four">
                                         <div class="thumbnail">
-                                            <a href="project-details.html" class="thumbnail-img">
+                                            <a href="{{ route('projects') }}" class="thumbnail-img">
                                                 <img src="assets/frontend/images/product/13.jpg" alt="product-image">
                                             </a>
                                             <div class="icon">
-                                                <a href="project-details.html"><i class="fal fa-arrow-right"></i></a>
+                                                <a href="{{ route('projects') }}"><i class="fal fa-arrow-right"></i></a>
                                             </div>
                                             <div class="inner-text">
                                                 <span>Website Design</span>
-                                                <a href="project-details.html">
+                                                <a href="{{ route('projects') }}">
                                                     <h5 class="title">News Website Design</h5>
                                                 </a>
                                             </div>
@@ -1168,15 +1167,15 @@
                                 <div class="col-lg-3 col-md-6 col-sm-12 col-12">
                                     <div class="rts-prodyct-style-four">
                                         <div class="thumbnail">
-                                            <a href="project-details.html" class="thumbnail-img">
+                                            <a href="{{ route('projects') }}" class="thumbnail-img">
                                                 <img src="assets/frontend/images/product/14.jpg" alt="product-image">
                                             </a>
                                             <div class="icon">
-                                                <a href="project-details.html"><i class="fal fa-arrow-right"></i></a>
+                                                <a href="{{ route('projects') }}"><i class="fal fa-arrow-right"></i></a>
                                             </div>
                                             <div class="inner-text">
                                                 <span>Website Design</span>
-                                                <a href="project-details.html">
+                                                <a href="{{ route('projects') }}">
                                                     <h5 class="title">News Website Design</h5>
                                                 </a>
                                             </div>
@@ -1186,15 +1185,15 @@
                                 <div class="col-lg-3 col-md-6 col-sm-12 col-12">
                                     <div class="rts-prodyct-style-four">
                                         <div class="thumbnail">
-                                            <a href="project-details.html" class="thumbnail-img">
+                                            <a href="{{ route('projects') }}" class="thumbnail-img">
                                                 <img src="assets/frontend/images/product/15.jpg" alt="product-image">
                                             </a>
                                             <div class="icon">
-                                                <a href="project-details.html"><i class="fal fa-arrow-right"></i></a>
+                                                <a href="{{ route('projects') }}"><i class="fal fa-arrow-right"></i></a>
                                             </div>
                                             <div class="inner-text">
                                                 <span>Website Design</span>
-                                                <a href="project-details.html">
+                                                <a href="{{ route('projects') }}">
                                                     <h5 class="title">News Website Design</h5>
                                                 </a>
                                             </div>
@@ -1208,15 +1207,15 @@
                                 <div class="col-lg-3 col-md-6 col-sm-12 col-12">
                                     <div class="rts-prodyct-style-four">
                                         <div class="thumbnail">
-                                            <a href="project-details.html" class="thumbnail-img">
+                                            <a href="{{ route('projects') }}" class="thumbnail-img">
                                                 <img src="assets/frontend/images/product/10.jpg" alt="product-image">
                                             </a>
                                             <div class="icon">
-                                                <a href="project-details.html"><i class="fal fa-arrow-right"></i></a>
+                                                <a href="{{ route('projects') }}"><i class="fal fa-arrow-right"></i></a>
                                             </div>
                                             <div class="inner-text">
                                                 <span>Website Design</span>
-                                                <a href="project-details.html">
+                                                <a href="{{ route('projects') }}">
                                                     <h5 class="title">News Website Design</h5>
                                                 </a>
                                             </div>
@@ -1226,15 +1225,15 @@
                                 <div class="col-lg-3 col-md-6 col-sm-12 col-12">
                                     <div class="rts-prodyct-style-four">
                                         <div class="thumbnail">
-                                            <a href="project-details.html" class="thumbnail-img">
+                                            <a href="{{ route('projects') }}" class="thumbnail-img">
                                                 <img src="assets/frontend/images/product/11.jpg" alt="product-image">
                                             </a>
                                             <div class="icon">
-                                                <a href="project-details.html"><i class="fal fa-arrow-right"></i></a>
+                                                <a href="{{ route('projects') }}"><i class="fal fa-arrow-right"></i></a>
                                             </div>
                                             <div class="inner-text">
                                                 <span>Website Design</span>
-                                                <a href="project-details.html">
+                                                <a href="{{ route('projects') }}">
                                                     <h5 class="title">News Website Design</h5>
                                                 </a>
                                             </div>
@@ -1244,15 +1243,15 @@
                                 <div class="col-lg-6 col-md-6 col-sm-12 co-12">
                                     <div class="rts-prodyct-style-four">
                                         <div class="thumbnail">
-                                            <a href="project-details.html" class="thumbnail-img">
+                                            <a href="{{ route('projects') }}" class="thumbnail-img">
                                                 <img src="assets/frontend/images/product/12.jpg" alt="product-image">
                                             </a>
                                             <div class="icon">
-                                                <a href="project-details.html"><i class="fal fa-arrow-right"></i></a>
+                                                <a href="{{ route('projects') }}"><i class="fal fa-arrow-right"></i></a>
                                             </div>
                                             <div class="inner-text">
                                                 <span>Website Design</span>
-                                                <a href="project-details.html">
+                                                <a href="{{ route('projects') }}">
                                                     <h5 class="title">News Website Design</h5>
                                                 </a>
                                             </div>
@@ -1262,15 +1261,15 @@
                                 <div class="col-lg-6 col-md-6 col-sm-12 co-12">
                                     <div class="rts-prodyct-style-four">
                                         <div class="thumbnail">
-                                            <a href="project-details.html" class="thumbnail-img">
+                                            <a href="{{ route('projects') }}" class="thumbnail-img">
                                                 <img src="assets/frontend/images/product/13.jpg" alt="product-image">
                                             </a>
                                             <div class="icon">
-                                                <a href="project-details.html"><i class="fal fa-arrow-right"></i></a>
+                                                <a href="{{ route('projects') }}"><i class="fal fa-arrow-right"></i></a>
                                             </div>
                                             <div class="inner-text">
                                                 <span>Website Design</span>
-                                                <a href="project-details.html">
+                                                <a href="{{ route('projects') }}">
                                                     <h5 class="title">News Website Design</h5>
                                                 </a>
                                             </div>
@@ -1280,15 +1279,15 @@
                                 <div class="col-lg-3 col-md-6 col-sm-12 col-12">
                                     <div class="rts-prodyct-style-four">
                                         <div class="thumbnail">
-                                            <a href="project-details.html" class="thumbnail-img">
+                                            <a href="{{ route('projects') }}" class="thumbnail-img">
                                                 <img src="assets/frontend/images/product/14.jpg" alt="product-image">
                                             </a>
                                             <div class="icon">
-                                                <a href="project-details.html"><i class="fal fa-arrow-right"></i></a>
+                                                <a href="{{ route('projects') }}"><i class="fal fa-arrow-right"></i></a>
                                             </div>
                                             <div class="inner-text">
                                                 <span>Website Design</span>
-                                                <a href="project-details.html">
+                                                <a href="{{ route('projects') }}">
                                                     <h5 class="title">News Website Design</h5>
                                                 </a>
                                             </div>
@@ -1298,15 +1297,15 @@
                                 <div class="col-lg-3 col-md-6 col-sm-12 col-12">
                                     <div class="rts-prodyct-style-four">
                                         <div class="thumbnail">
-                                            <a href="project-details.html" class="thumbnail-img">
+                                            <a href="{{ route('projects') }}" class="thumbnail-img">
                                                 <img src="assets/frontend/images/product/15.jpg" alt="product-image">
                                             </a>
                                             <div class="icon">
-                                                <a href="project-details.html"><i class="fal fa-arrow-right"></i></a>
+                                                <a href="{{ route('projects') }}"><i class="fal fa-arrow-right"></i></a>
                                             </div>
                                             <div class="inner-text">
                                                 <span>Website Design</span>
-                                                <a href="project-details.html">
+                                                <a href="{{ route('projects') }}">
                                                     <h5 class="title">News Website Design</h5>
                                                 </a>
                                             </div>

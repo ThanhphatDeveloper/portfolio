@@ -25,7 +25,7 @@
                 <div class="col-lg-12">
                     <div class="header-five-wrapper">
                         <div class="logo-area">
-                            <a href="index.html" class="thumbnail">
+                            <a href="{{ route('index') }}" class="thumbnail">
                                 <img class="logo-for-white" src="assets/frontend/images/logo/mazin-01.svg" alt="logo-area">
                                 <img class="logo-for-dark" src="assets/frontend/images/logo/mazin-01-white.svg" alt="logo-area">
                             </a>
@@ -33,7 +33,7 @@
                         <div class="menu-area main-menu">
                             <ul class="nav" id="nav">
                                 <li class="current">
-                                    <a href="#home">Home</a>
+                                    <a href="{{ route('index') }}">Home</a>
                                 </li>
                                 <li>
                                     <a href="#about">About</a>
